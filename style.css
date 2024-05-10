@@ -59,6 +59,7 @@ body{
 .front-card{
     position: relative;
     transform: translateX(-100px);
+    filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.199))
 }
 #card_logo{
     position: absolute;
@@ -91,6 +92,7 @@ body{
 
 .back-card{
     position: relative;
+    filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.199))
 }
 #cvc{
     position: absolute;
