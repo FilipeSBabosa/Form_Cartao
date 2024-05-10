@@ -254,9 +254,7 @@ form button{
     }
 }
 @media screen and (max-width: 900px){
-    .front-card, .front-card img, .back-card, .back-card img{
-        width: 280px;
-    } 
+
     .container{
         flex-direction: column;
     }
@@ -273,6 +271,7 @@ form button{
     }
     .back-card{
         transform: translateY(80px);
+        right: 2.5rem;
         
     }
     .front-card{
@@ -284,7 +283,7 @@ form button{
     }
     #number{
         position: relative;
-        font-size: 1.1em;
+        font-size: 1.2em;
         bottom: 5rem;
     }
     .card_info{
@@ -300,7 +299,7 @@ form button{
         left: 1.3rem;
     }
     #cvc{
-        bottom: 6rem;
+        bottom: 6.3rem;
         right: 2.5rem;
         font-size: 12px;
     }
